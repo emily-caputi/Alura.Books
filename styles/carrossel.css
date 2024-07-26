@@ -97,7 +97,11 @@
         top: 60%;
     }
 
-    
+    .card{
+        display: flex;
+        alim-itens: center;
+        width:40%;
+    }
 }
 
 @media screen and (min-width:1728px){
@@ -129,7 +133,7 @@
     }
 
     .card{
-        width: 60%;
+        width: 40%;
         margin-left: 3em;
     }
 }
