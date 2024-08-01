@@ -30,8 +30,6 @@
     position: absolute;
     top: 100%;
     width: 60vw;
-    border-radius: 0 0 20px 20px;
-    background-color: var(--branco);
 }
 
 .container__botão:checked~.lista-menu{
@@ -40,6 +38,7 @@
 
 .lista-menu__titulo, .lista-menu__item{
     padding: 1em;
+    background-color: var(--branco);
 }
 
 .lista-menu__titulo{
@@ -67,13 +66,6 @@
     display: none;
   }
 
-  .opções__botão{
-    display: none;
-  }
-
-  .container__texto{
-    display: none;
-  }
 
   .container__botão:checked ~ .container__rotulo > .cabeçalho__menu-hamburger {
     background-image: url(../img/menuaberto.svg);
@@ -153,11 +145,9 @@
         align-items: center;
         text-decoration: none;
         color: var(--preto);
+        padding-right: 30px;
     }
 
-    .cabeçalho{
-        padding:  0 2em;
-    }
 
     .opções{
         margin-right: auto;

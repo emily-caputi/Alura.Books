@@ -97,11 +97,6 @@
         top: 60%;
     }
 
-    .card{
-        display: flex;
-        alim-itens: center;
-        width:40%;
-    }
 }
 
 @media screen and (min-width:1728px){
