@@ -62,6 +62,10 @@
     display: none;
   }
 
+  .container__texto{
+    display: none;
+  }
+
   .opções{
     display: none;
   }
@@ -135,6 +139,10 @@
         -webkit-text-fill-color: var(--branco) ;
         text-decoration: none;
     }
+
+    .opções__botão{
+        display: none;
+    }
   }
 
 
@@ -147,7 +155,6 @@
         color: var(--preto);
         padding-right: 30px;
     }
-
 
     .opções{
         margin-right: auto;
